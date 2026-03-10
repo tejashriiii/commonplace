@@ -1,65 +1,76 @@
-html, body {
-  margin: 0;
-  height: 100%;
-}
-
+/* Base */
 body {
-  font-family: system-ui, sans-serif;
-  background-image: url("gif-ezgif.com-optimize.gif");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.scene {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
+  background-color: #0F2A23;
+  color: #D4D8DD;
+  font-family: "Inter", system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0;
 }
 
-.textbox {
-  position: absolute;
-
-  left: 14%;
-  top: 12%;
-
-  max-width: 460px;
-  padding: 1.6rem 2rem;
-
-  animation: idleFloat 10s steps(100) infinite;
+/* Narrow centered column */
+.container {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 100px 20px 80px;
 }
 
-@keyframes idleFloat {
-  0%   { transform: translate(0, 0); }
-  20%  { transform: translate(-3px, 2px); }
-  40%  { transform: translate(2px, -4px); }
-  60%  { transform: translate(-2px, -3px); }
-  80%  { transform: translate(4px, 2px); }
-  100% { transform: translate(0, 0); }
+/* Name section */
+.site-header {
+  margin-bottom: 30px;
+  /* padding-bottom: 32px; */
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.07); */
 }
 
-.intro-text {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.5rem;
-  line-height: 1.4;
-
-  color: #e8dcc5;
-
-  text-shadow:
-    1px 1px 0 rgba(0,0,0,0.6),
-    -1px -1px 0 rgba(0,0,0,0.4);
-
-  margin: 0 0 1.2rem;
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #eef0ed;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
-.proceed {
-  background: none;
-  border: none;
-
-  font-family: inherit;
-  font-size: 1.1rem;
-  color: #d6c08d;
+/* Nav + Info side by side */
+.main-section {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 40px;
 }
 
+/* Nav */
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 2px;
+}
 
+nav a {
+  color: #8FAF9B;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-left: -8px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
 
+nav a:hover,
+nav a.active {
+  background: rgba(143, 175, 155, 0.1);
+  color: #eef0ed;
+}
 
+/* Info */
+.info p {
+  margin: 0 0 14px;
+  font-size: 0.9rem;
+  color: #b0b8be;
+}
+
+.info p:last-child {
+  color: #8FAF9B;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  underline: 1px solid rgba(143, 175, 155, 0.3);
+}
