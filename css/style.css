@@ -1,24 +1,21 @@
-/* Base */
+/* main */
 body {
-  background-color: #0F2A23;
+  background-color: #031a0d;
   color: #D4D8DD;
   font-family: "Inter", system-ui, sans-serif;
   line-height: 1.6;
   margin: 0;
 }
 
-/* Narrow centered column */
 .container {
   max-width: 580px;
   margin: 0 auto;
   padding: 100px 20px 80px;
 }
 
-/* Name section */
 .site-header {
   margin-bottom: 30px;
-  /* padding-bottom: 32px; */
-  /* border-bottom: 1px solid rgba(255, 255, 255, 0.07); */
+  
 }
 
 h1 {
@@ -30,7 +27,6 @@ h1 {
   letter-spacing: 0.01em;
 }
 
-/* Nav + Info side by side */
 .main-section {
   display: grid;
   grid-template-columns: 130px 1fr;
@@ -55,22 +51,34 @@ nav a {
   transition: background 0.15s ease, color 0.15s ease;
 }
 
-nav a:hover,
-nav a.active {
-  background: rgba(143, 175, 155, 0.1);
-  color: #eef0ed;
+nav a:hover {
+  background: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-/* Info */
+nav a.active {
+  background: none;
+
+}
+
+nav a.active::after {
+  content: " →";
+  color: #8FAF9B;
+}
+
+
 .info p {
   margin: 0 0 14px;
   font-size: 0.9rem;
   color: #b0b8be;
 }
 
-.info p:last-child {
+.info a.email {
   color: #8FAF9B;
   font-size: 0.8rem;
   letter-spacing: 0.04em;
-  underline: 1px solid rgba(143, 175, 155, 0.3);
+  
 }
+
+/* pages */
