@@ -1,6 +1,6 @@
 /* main */
 body {
-  background-color: #031c0e;
+  background-color: #03180c;
   color: #D4D8DD;
   font-family: "Inter", system-ui, sans-serif;
   line-height: 1.6;
@@ -80,7 +80,7 @@ nav a.active::after {
 }
 
 .info a.email {
-  color: #8FAF9B;
+  color: #4b6156;
   font-size: 0.8rem;
   letter-spacing: 0.04em;
   
@@ -202,3 +202,23 @@ nav a.active::after {
   color: #6a7a72;
 }
 
+        
+        
+/* socials icons */
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.icon-link {
+  color: #4b6156;
+  transition: color 0.15s ease;
+  display: flex;
+  /* align-items: center; */
+}
+
+.icon-link:hover {
+  color: #a1ac9c;
+}
