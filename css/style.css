@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  max-width: 580px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 100px 20px 80px;
 }
@@ -34,7 +34,7 @@ h1 {
 
 .main-section {
   display: grid;
-  grid-template-columns: 130px 1fr;
+  grid-template-columns: 100px 1fr;
   gap: 40px;
 }
 
@@ -149,7 +149,7 @@ nav a.active::after {
 /* ── Book review page ─────────────────────────────── */
 .book-review-title {
   font-family: "Playfair Display", serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #eef0ed;
   margin: 0 0 12px 0;
   line-height: 1.35;
