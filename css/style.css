@@ -222,3 +222,17 @@ nav a.active::after {
 .icon-link:hover {
   color: #a1ac9c;
 }
+.reading-links {
+  margin-top: 32px;
+  font-size: 0.8rem;
+  color: #6a7a72;
+}
+
+.reading-links a {
+  color: #8FAF9B;
+  text-decoration: none;
+}
+
+.reading-links a:hover {
+  color: #ffffff;
+}
