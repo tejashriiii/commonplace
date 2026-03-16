@@ -98,9 +98,9 @@ nav a.active::after {
 
 .reading-list li {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1.8fr 1.2fr 140px 50px;
   align-items: baseline;
-  gap: 16px;
+  gap: 0 12px;
   padding: 8px 0;
   border-bottom: 1px solid rgba(255,255,255,0.05);
 }
@@ -127,13 +127,6 @@ nav a.active::after {
   white-space: nowrap;
 }
 
-.book-meta {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  white-space: nowrap;
-}
-
 .book-date {
   font-size: 0.82rem;
   color: #6a7a72;
@@ -144,6 +137,7 @@ nav a.active::after {
   font-size: 0.75rem;
   color: #8FAF9B;
   letter-spacing: 1px;
+  justify-self: end;
 }
 
 /* ── Book review page ─────────────────────────────── */
