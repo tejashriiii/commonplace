@@ -188,6 +188,7 @@ nav a.active::after {
 
 .writing-title:hover {
   color: #ffffff;
+  text-decoration: underline;
 }
 
 .writing-desc {
