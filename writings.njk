@@ -4,7 +4,7 @@ title: Writings | commonplace
 activePage: writings
 ---
 <ul class="writing-list">
-  {% for post in collections.writings | reverse %}
+  {% for post in collections.writings | sort(false, false, 'data.order') | reverse %}
   <li>
     <div class="writing-top">
       <a href="{{ post.url | url }}" class="writing-title">{{ post.data.title }}</a>

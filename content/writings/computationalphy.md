@@ -5,6 +5,7 @@ posted: 17 March 2026
 layout: post.njk
 activePage: writings
 tags: writings
+order: 1
 ---
 
 *"The purpose of computational physics is to remind physicists of computer science and computer scientists of physics."* — Rubin H. Landau

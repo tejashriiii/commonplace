@@ -6,6 +6,7 @@ stars: ★★★
 layout: post.njk
 activePage: readings
 tags: reads
+order: 1
 ---
 
 <u>GoodReads Overview:</u> Obsessed with creating life itself, Victor Frankenstein plunders graveyards for the material to fashion a new being, which he shocks into life with electricity. But his botched creature, rejected by Frankenstein and denied human companionship, sets out to destroy his maker and all that he holds dear. Mary Shelley's chilling Gothic tale was conceived when she was only eighteen, would become the world's most famous work of horror fiction, and remains a devastating exploration of the limits of human creativity.

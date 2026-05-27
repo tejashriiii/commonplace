@@ -5,6 +5,7 @@ posted: 29 April 2026
 layout: post.njk
 activePage: writings
 tags: writings
+order: 2
 ---
 
 So I was scrolling through YouTube and landed on Tina Huang's "Open Source AI In 17 Minutes" video, how these AI can help build an agentic AI system. It kinda intrigued me, a full-fledged system on your machine? Now I personally dislike quite a few things in AI (~~oh yes, I have a ug degree in it, that's exactly why I dislike it~~), but it can, sometimes, do impressive stuff as well, and so I started researching.

@@ -6,6 +6,7 @@ stars: ★★★★★
 layout: post.njk
 activePage: readings
 tags: reads
+order: 4
 ---
 
 <u>Mode:</u> Physical copy, paper-back.

@@ -6,6 +6,7 @@ stars: ★★★
 layout: post.njk
 activePage: readings
 tags: reads
+order: 5
 ---
 
 <u>GoodReads Overview:</u> In a post-nuclear winter world, now free from borders, war, poverty and overpopulation, the smartest man on the planet is working on the most illegal thing imaginable. Once a celebrated scientist for whom the Authority had to come up with an entirely new 'Genius Category 3', Dr K, now spends his days in a hungover, crotchety haze, relegated to working on a trifling project. He is obsessively simulating universes, intervening in them, and when they fail to achieve something, terminating them. But all of his efforts to nudge these simulated realities inevitably come up short against the most unlikely spanner in the works - bumbling private detective P. Manjunath.

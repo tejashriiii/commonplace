@@ -6,6 +6,7 @@ stars: ★
 layout: post.njk
 activePage: readings
 tags: reads
+order: 2
 ---
 
 <u>GoodReads Overview:</u> While in Paris on business, Harvard symbologist Robert Langdon receives an urgent late-night phone call: the elderly curator of the Louvre has been murdered inside the museum. Near the body, police have found a baffling cipher. While working to solve the enigmatic riddle, Langdon is stunned to discover it leads to a trail of clues hidden in the works of Da Vinci - clues visible for all to see - yet ingeniously disguised by the painter.
