@@ -5,19 +5,19 @@
   <meta name="color-scheme" content="dark">
   <meta name="darkreader-lock">
   <title>{{ title or "commonplace" }}</title>
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <header class="site-header">
-      <h1><a href="/">Tejashri Maske</a></h1>
+      <h1><a href="{{ '/' | url }}">Tejashri Maske</a></h1>
     </header>
     <div class="main-section">
       <nav>
-        <a href="/writings/" {% if activePage == "writings" %}class="active"{% endif %}>Writings</a>
-        <a href="/readings/" {% if activePage == "readings" %}class="active"{% endif %}>Readings</a>
-        <a href="/art/" {% if activePage == "art" %}class="active"{% endif %}>Art</a>
+        <a href="{{ '/writings/' | url }}" {% if activePage == "writings" %}class="active"{% endif %}>Writings</a>
+        <a href="{{ '/readings/' | url }}" {% if activePage == "readings" %}class="active"{% endif %}>Readings</a>
+        <a href="{{ '/art/' | url }}" {% if activePage == "art" %}class="active"{% endif %}>Art</a>
       </nav>
       <div class="info">
         {{ content | safe }}

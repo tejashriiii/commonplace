@@ -5,16 +5,16 @@
   <meta name="color-scheme" content="dark">
   <meta name="darkreader-lock">
   <title>{{ title or "commonplace" }}</title>
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
   <aside class="sidebar">
-    <h1><a href="/">Tejashri Maske</a></h1>
+    <h1><a href="{{ '/' | url }}">Tejashri Maske</a></h1>
     <nav>
-      <a href="/writings/">Writings</a>
-      <a href="/readings/">Readings</a>
-      <a href="/art/" class="active">Art</a>
+      <a href="{{ '/writings/' | url }}">Writings</a>
+      <a href="{{ '/readings/' | url }}">Readings</a>
+      <a href="{{ '/art/' | url }}" class="active">Art</a>
     </nav>
   </aside>
   <div class="canvas">
