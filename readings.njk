@@ -5,8 +5,7 @@ activePage: readings
 ---
 
 <ul class="reading-list">
-  {# {% for post in collections.reads | reverse %} #}
-  {% for post in collections.writings | sort(false, false, 'data.order') | reverse %}
+  {% for post in collections.reads | reverse %}
   <li>
     <a href="{{ post.url }}" class="book-title">{{ post.data.title }}</a>
     <span class="book-author">{{ post.data.author }}</span>
