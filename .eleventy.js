@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("content/writings/**/*.png");
   eleventyConfig.addPassthroughCopy("content/writings/**/*.jpg");
   eleventyConfig.addPassthroughCopy("content/writings/**/*.jpeg");
+  eleventyConfig.addPassthroughCopy("logo.png");
   eleventyConfig.ignores.add("index.html");
   eleventyConfig.ignores.add("pages/");
 
