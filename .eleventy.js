@@ -8,11 +8,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.ignores.add("pages/");
 
   return {
-    dir: {
-      input: ".",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
-    }
-  };
+  pathPrefix: "/commonplace/",
+  dir: {
+    input: ".",
+    includes: "_includes",
+    data: "_data",
+    output: "_site"
+  }
+};
 };
