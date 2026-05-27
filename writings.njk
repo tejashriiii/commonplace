@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: Writings | commonplace
+activePage: writings
+---
+
+<ul class="writing-list">
+  {% for post in collections.writings | reverse %}
+  <li>
+    <div class="writing-top">
+      <a href="{{ post.url }}" class="writing-title">{{ post.data.title }}</a>
+      <span class="book-date">{{ post.data.posted }}</span>
+    </div>
+    <div class="writing-desc">{{ post.data.description }}</div>
+  </li>
+  {% endfor %}
+</ul>

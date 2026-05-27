@@ -1,0 +1,21 @@
+---
+layout: base.njk
+title: Readings | commonplace
+activePage: readings
+---
+
+<ul class="reading-list">
+  {% for post in collections.reads | reverse %}
+  <li>
+    <a href="{{ post.url }}" class="book-title">{{ post.data.title }}</a>
+    <span class="book-author">{{ post.data.author }}</span>
+    <span class="book-date">{{ post.data.posted }}</span>
+    <span class="stars">{{ post.data.stars }}</span>
+  </li>
+  {% endfor %}
+</ul>
+<p class="reading-links">
+  <a href="https://www.goodreads.com/user/show/150350760-brisklyreading" target="_blank">Goodreads</a>
+  &amp;
+  <a href="https://fable.co/fabler/brisklyreading-316005855227" target="_blank">Fable</a>: brisklyreading
+</p>

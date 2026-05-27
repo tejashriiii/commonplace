@@ -1,0 +1,6 @@
+---
+layout: base.njk
+---
+<h2 class="book-review-title">{{ title }}</h2>
+<p class="review-meta">{{ posted }}{% if stars %} &nbsp; <span class="stars">{{ stars }}</span>{% endif %}</p>
+{{ content | safe }}

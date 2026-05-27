@@ -1,0 +1,10 @@
+---
+layout: art-layout.njk
+title: Art | commonplace
+---
+
+{% for item in art %}
+<div class="art-item">
+  <img src="/art/{{ item.file }}" alt="{{ item.alt }}" />
+</div>
+{% endfor %}
