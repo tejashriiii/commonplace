@@ -2,7 +2,7 @@
 title: Frankenstein
 author: Mary Shelley
 posted: 23 December 2025
-stars: ★★★
+stars: ★★★★
 layout: post.njk
 activePage: readings
 tags: reads
@@ -13,7 +13,7 @@ order: 1
 
 <u>Mode:</u>  Physical copy, paper-back.
 
-<u>My Thoughts:</u> I read this book in my winter break and I loved it, it could easily be a 3.5 stars. The first ever sci-fi horror novel written, with all the "mad scientists" wanting to play God, this book makes you feel sad and disappointed, leaving you bewildered, at times even inducing rage.
+<u>My Thoughts:</u> I read this book in my winter break and I loved it. The first ever sci-fi horror novel written, with all the "mad scientists" wanting to play God, this book makes you feel sad and disappointed, leaving you bewildered, at times even inducing rage.
 
 The monster, haunting yet poetic, was legitimately super intelligent. I absolutely loved reading the scene where he learns from a poor family living in a hut, their mannerisms, learning how to speak and read and write all while staying unnoticed.
 
